@@ -1,1 +1,2 @@
-Created a New Branch named SampleBranch
+Created a New Branch named SampleBranch 
+
