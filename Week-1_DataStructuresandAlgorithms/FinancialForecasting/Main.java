@@ -20,7 +20,7 @@ public class Main {
         double principal = sc.nextDouble();
 
         System.out.println("Enter the Interest Rate");
-        double rate = sc.nextDouble();
+        double rate = sc.nextDouble();  
 
         System.out.println("Enter the No of Years");
         int years = sc.nextInt();
