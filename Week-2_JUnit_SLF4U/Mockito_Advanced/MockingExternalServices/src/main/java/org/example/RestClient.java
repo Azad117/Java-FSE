@@ -1,4 +1,5 @@
 package org.example;
 
-public class RestClinet {
+public interface RestClient {
+    String getResponse();
 }

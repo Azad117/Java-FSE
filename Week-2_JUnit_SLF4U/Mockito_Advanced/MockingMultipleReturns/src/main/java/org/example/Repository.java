@@ -1,4 +1,5 @@
 package org.example;
 
-public class Repository {
+public interface Repository {
+    String getData();
 }

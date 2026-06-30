@@ -1,4 +1,5 @@
 package org.example;
 
-public class FileWriter {
+public interface FileWriter {
+    void write(String Filename);
 }

@@ -1,4 +1,5 @@
 package org.example;
 
-public class NetworkClient {
+public interface NetworkClient {
+    String connect();
 }

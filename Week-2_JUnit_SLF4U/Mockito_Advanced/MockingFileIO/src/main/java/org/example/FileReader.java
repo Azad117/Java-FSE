@@ -1,4 +1,5 @@
 package org.example;
 
-public class FileReader {
+public interface FileReader {
+    String read();
 }
