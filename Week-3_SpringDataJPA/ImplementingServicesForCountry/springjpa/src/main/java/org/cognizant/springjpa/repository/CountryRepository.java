@@ -1,4 +1,9 @@
 package org.cognizant.springjpa.repository;
 
-public interface CountryRepository {
+import org.cognizant.springjpa.model.Country;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CountryRepository extends JpaRepository<Country,String> {
 }
